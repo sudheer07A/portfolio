@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+.navbar-image {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+.navbar a{
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    margin-left:35px;   
+}
+
+.navbar a.active,
+.navbar a:hover{
+    background: linear-gradient(45deg,#f06,#3cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.hero{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background:white;
+}
+.detail{
+    margin-left:8%;
+    margin-top:13%;
+}
+.detail h1{
+    font-size:50px;
+    color:black;
+    margin-bottom:20px;
+
+}
+span{
+    color:orange;
+}
+.detail p{
+    color:black;
+    line-height: 22px;
+}
+.images{
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+}
+.images img{
+    height:100%;
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform: translateX(-50%);
+    transition: bottom 5s,left 5s;
+}
+.shape{
+    width:30vw;
+}
+.images:hover  .shape{
+    bottom:40px;
+}
+.images:hover  .boy{
+    left:45%;
+}
+.button1{
+    justify-content:center;
+    align-items:center;
+    width:180px;
+    height:48px;
+    background-color:black;
+    color:white;
+    border-radius:40px;
+    font-size:19px;
+    font-weight:600;
+
+    
+}
+.boy{
+    border-radius: 50vh;
+    border-width: 500px;
+    
+}
+.contact .personal-contact a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+    padding:3px;
+    border:1px solid black;
+    border-radius:50%;
+    font-size: 30px;
+    color:white;
+    margin:30px 15px 30px 0px;
+}
+.contact .personal-contact a:hover{
+    background: yellow;
+    color:black;
+    box-shadow: 0 0 20px yellow;
+}
+.contact a{
+    background-color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(116, 25, 78);
+    margin:20px 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.contact{
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 0px;
+    width: 86%;
+    align-items: center;
+}
+.contact{
+    display: none;
+}
+.contact:target{
+    display: block;
+}
+.page1
+{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background:black;
+    text-align: center;
+}
+.head{
+    color:#fff;
+    padding-top: 50vh;
+
+}
+.para{
+    color:#fff;
+}
